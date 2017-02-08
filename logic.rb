@@ -16,6 +16,7 @@ puts "day of week is #{day_of_week}"
 
 
 
+
 availablity = ""
 working = ""
 
