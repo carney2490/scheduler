@@ -8,6 +8,5 @@ load "./local_env.rb" if File.exists?("./local_env.rb")
 
 get '/' do
     @title = 'Home Page'
-    session[:full_name] = params[:full_name]
-    erb :user_registration, :locals => {:users => users}
+    erb :homepage
 end
